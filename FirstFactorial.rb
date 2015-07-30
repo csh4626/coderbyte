@@ -1,11 +1,10 @@
 def FirstFactorial(num)
   
-  if (num == 1) 
-      return 1
-  else (num > 1)
-    return num*FirstFactorial(num – 1)
-  
-   end
+ if num == 1
+   return 1
+ else
+  num * FirstFactorial(num - 1)
+ end
 end
 
    
